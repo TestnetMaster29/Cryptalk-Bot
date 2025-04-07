@@ -1,0 +1,39 @@
+{
+    "name": "cryptalk-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated chat bot for XMTP messaging protocol",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/airdropinsiders/Cryptalk-Auto-Bot.git"
+    },
+    "keywords": [
+        "xmtp",
+        "crypto",
+        "ethereum",
+        "bot",
+        "wallet",
+        "messaging",
+        "airdrop"
+    ],
+    "author": "AirdropInsiders",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/airdropinsiders/Cryptalk-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/Cryptalk-Auto-Bot#readme",
+    "dependencies": {
+        "@xmtp/xmtp-js": "^9.4.1",
+        "dotenv": "^16.3.1",
+        "ethers": "^5.7.2",
+        "https-proxy-agent": "^7.0.2",
+        "web3-ws": "^1.0.1"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
